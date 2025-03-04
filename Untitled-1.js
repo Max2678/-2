@@ -1,11 +1,11 @@
 // ***1***
 // Робота зі змінними
 // Оголосіть дві змінні: name та city.
-// Присвойте значення "Іван" змінній name.
+// Присвойте значення "Макс" змінній name.
 // Скопіюйте значення зі змінної name в city.
-// Виведіть значення змінної city, використовуючи функцію console.log (яка повинна показати “Іван”).
+// Виведіть значення змінної city, використовуючи функцію console.log (яка повинна показати “Макс”).
 
-let name = "Іван";
+let name = "Макс";
 let city = name;
 console.log(city);
 
@@ -68,9 +68,9 @@ console.log(randomNumber);
 
 // ***7***
 // дізнатись довжину message
-// const message = "Welcome to Bahamas!";
+// const message = "Welcome to Ukraine!";
 
-const message = "Welcome to Bahamas!";
+const message = "Welcome to Ukraine!";
 let messageLength = message.length;
 
 console.log(messageLength);
@@ -78,7 +78,7 @@ console.log(messageLength);
 // ***8***
 // вивести в консоль message  великими літерами
 
-const message2 = "Welcome to Bahamas!";
+const message2 = "Welcome to Ukraine!";
 let uppercaseMessage = message2.toUpperCase();
 
 console.log(uppercaseMessage);
@@ -95,7 +95,7 @@ let person = {};
 
 person.name = "John";
 person.age = 30;
-person.city = "New York";
+person.city = "Bangladesh";
 
 console.log(person);
 
@@ -109,10 +109,10 @@ console.log(person);
 // За допомогою циклу  “for…in” вивести в консоль ключі і значення об*єкта
 
 let person2 = {
-    name: "Alice",
-    age: 25,
-    city: "London",
-    isStudent: false
+    name: "Max",
+    age: 17,
+    city: "Shostka",
+    isStudent: true
   };
 
   for (let key in person2) {
